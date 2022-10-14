@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+   box-sizing: border-box;
+   padding: 0;
+   margin: 0;
+}
+
+:focus {
+   outline: 0;
+   box-shadow: 0 0 2px #000;
+}
+
+body {
+   @apply bg-background;
+}
+
+body,
+input,
+textarea,
+button {
+   font-family: 'Roboto', sans-serif;
+   font-size: 1rem;
+   font-weight: 400;
+   -webkit-font-smoothing: antialiased;
+}
+/**
+   sm:640px 
+   md:768px 
+   lg:1024px 
+   xl:1280px 
+   2xl:1536px
+**/
+.layout-container {
+   @apply mr-4 ml-4 lg:mr-40 lg:ml-40;
+}
