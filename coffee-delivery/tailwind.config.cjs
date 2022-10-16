@@ -22,6 +22,13 @@ module.exports = {
             background: '#FAFAFA',
             white: '#FFFFFF',
          },
+         backgroundImage: {
+            backgroundBanner: "url('src/assets/img/Background.png')",
+         },
+         fontFamily: {
+            Baloo: "'Baloo 2', 'cursive'",
+            Roboto: "'Roboto', 'sans-serif'",
+         },
       },
    },
    plugins: [],
