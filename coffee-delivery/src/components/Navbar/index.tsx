@@ -10,7 +10,7 @@ export function Navbar() {
             <a
                href='https://goo.gl/maps/U97MgUYsyd1yH1yEA'
                target='_blank'
-               className='flex items-center gap-1 p-2 rounded-md bg-purple-light text-purple-dark '
+               className='flex items-center gap-1 p-2 rounded-md bg-purple-light text-purple-dark hover:bg-purple hover:text-white transition-all'
             >
                <MapPin size={22} />
                Belém, PA

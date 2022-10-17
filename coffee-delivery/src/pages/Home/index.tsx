@@ -1,5 +1,7 @@
 import { Coffee, Package, ShoppingCart, Timer } from 'phosphor-react';
 import CoffeeBanner from '../../assets/img/image-banner.png';
+import { CardCoffee } from '../../components/CardCoffee';
+import { Footer } from '../../components/Footer';
 import { Navbar } from '../../components/Navbar';
 
 export function Home() {
@@ -68,6 +70,19 @@ export function Home() {
                </div>
             </div>
          </header>
+
+         <main className='layout-container pt-8 mb-10'>
+            <section>
+               <h2 className='font-Baloo font-extrabold text-3xl mb-14'>
+                  Nossos cafés
+               </h2>
+
+               <div className='grid grid-cols-1 md:grid-cols-4 gap-y-8'>
+                  <CardCoffee />
+               </div>
+            </section>
+         </main>
+         <Footer />
       </>
    );
 }
