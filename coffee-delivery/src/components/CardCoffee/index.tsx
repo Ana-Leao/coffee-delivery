@@ -134,7 +134,7 @@ export function CardCoffee() {
                   key={card.id}
                   className='flex flex-col w-64 justify-center items-center p-5 bg-base-card rounded-tl-md rounded-tr-[36px] rounded-bl-[36px] rounded-br-md mb-5'
                >
-                  <img className='w-32 mt-[-45px] mb-3' src={card.imgCoffee} />
+                  <img className='w-[120px] mt-[-45px] mb-3' src={card.imgCoffee} />
                   <span className='bg-yellow-light text-yellow-dark rounded-full font-bold text-[10px] uppercase px-2 py-1 mb-4'>
                      {card.badge}
                   </span>

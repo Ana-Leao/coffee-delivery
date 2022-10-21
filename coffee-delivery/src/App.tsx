@@ -1,10 +1,9 @@
-import { Home } from './pages/Home'
-import './styles/global.css'
+import { Home } from './pages/Home';
+import { Router } from './Router';
+import './styles/global.css';
 
 export function App() {
-  return(
-    <>
-      <Home />
-    </>
-  )
+   return (
+    <Router />
+   )
 }
