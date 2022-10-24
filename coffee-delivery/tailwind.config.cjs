@@ -24,6 +24,7 @@ module.exports = {
          },
          backgroundImage: {
             backgroundBanner: "url('src/assets/img/Background.png')",
+            teste: 'linear-gradient(280deg, rgba(149,114,252,1) 0%, rgba(225,213,93,1) 100%)',
          },
          fontFamily: {
             Baloo: "'Baloo 2', 'cursive'",
