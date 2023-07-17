@@ -1,15 +1,12 @@
-import { ThemeProvider } from "styled-components";
-import { GlobalStyle } from "./styles/global";
-import { defaultTheme } from "./themes/default";
-import { Home } from "./pages/Home";
+import { Navbar } from './components/Navbar';
+import { Home } from './pages/Home';
+import './styles/globalStyle.module.css';
 
-export function App () {
-  return (
-    <>
-      <ThemeProvider theme={defaultTheme}>
-         <GlobalStyle />
-            <Home />
-      </ThemeProvider>
-    </>
-  );
-} 
+export function App() {
+   return (
+      <>
+         <Navbar />
+         <Home />
+      </>
+   );
+}

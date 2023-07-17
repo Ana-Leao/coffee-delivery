@@ -1,0 +1,54 @@
+.container {
+    background-image: url('../../img/Background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: var(--base-background);
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.contentText h1 {
+    color: var(--base-title);
+    font-family: var(--font-title);
+    font-size: 3rem;
+    font-weight: 800;   
+    line-height: 130%;
+    margin-bottom: 1rem; 
+}
+
+.contentText h2 {
+    font-family: var(--font-body);
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+
+.containerIcons {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.contentIcons {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    
+}
+
+.contentIcons .icon {
+    display: flex;
+    padding: 0.5rem;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem;
+    border-radius: 62.5rem;
+    color: var(--base-background);
+    background: var(--yellow-dark);
+}

@@ -1,0 +1,64 @@
+header {
+   width: 100vw;
+   background-color: var(--base-background);
+}
+
+.navbar {
+   display: flex;
+   justify-content: space-between;
+   max-width: 1200px;
+   margin: 0 auto;
+   padding: 1.5rem 0;
+}
+
+.BtnContainer {
+   display: flex;
+   align-items: center;
+   gap: 0.75rem;
+   justify-content: flex-end;
+}
+
+.BtnLocation {
+   display: flex;
+   padding: 0.5rem;
+   justify-content: center;
+   align-items: center;
+   gap: 0.25rem;
+
+   border-radius: 0.375rem;
+   background: var(--purple-light);
+   text-decoration: none;
+   color: #8047F8;
+   transition: all 0.2s ease-in;
+}
+
+.BtnLocation:hover {
+    background: var(--purple);
+    color: var(--purple-light);
+}
+
+.BtnLocation p {
+    font-size: 0.875rem;
+    font-weight: 400; 
+}
+
+.btnCart {
+   display: flex;
+   padding: 0.5rem;
+   justify-content: center;
+   align-items: center;
+   gap: 0.25rem;
+   border-radius: 0.375rem;
+   background: var(--yellow-light);
+   border: none;
+   color: #C47F17;
+   transition: all 0.2s ease-in;
+   cursor: pointer;
+
+}
+
+.btnCart:hover {
+    background: var(--yellow-dark);
+    color: var(--yellow-light);
+    
+}
