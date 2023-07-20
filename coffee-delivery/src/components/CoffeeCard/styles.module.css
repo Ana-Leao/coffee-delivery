@@ -1,0 +1,82 @@
+.container {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   max-width: 1200px;
+   margin: 0 auto;
+}
+
+.coffeeCard {
+   border-radius: 6px 36px;
+   background: var(--base-card);
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   padding: 1rem;
+}
+
+.coffeeCard img {
+   width: 120px;
+}
+
+.coffeeBadge {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 0.25rem 0.5rem;
+   border-radius: 6.25rem;
+   background: var(--yellow-light);
+}
+
+.coffeeBadge .text {
+   color: var(--yellow-dark);
+   font-family: var(--font-body);
+   font-size: 0.625rem;
+   font-weight: 700;
+   text-transform: uppercase;
+}
+
+.coffeeTitle {
+   color: var(--base-subtitle);
+   text-align: center;
+   font-family: var(--font-title);
+   font-size: 1.25rem;
+   font-weight: 700;
+}
+
+.coffeDescription {
+   color: var(--base-label);
+   text-align: center;
+   font-family: var(--font-body);
+   font-weight: 400;
+   font-size: 0.875rem;
+}
+
+.containerButton {
+   display: flex;
+   align-items: center;
+   color: var(--base-text);
+}
+
+.containerButton span {
+   font-size: 1rem;
+}
+
+.containerButton b {
+   font-family: var(--font-title);
+   color: var(--base-text, #574f4d);
+   font-size: 1.5rem;
+   font-weight: 800;
+}
+
+.buttonCart {
+   display: flex;
+   padding: 0.5rem;
+   justify-content: center;
+   align-items: center;
+   border-radius: 0.375rem;
+   border: none;
+   background: var(--pruple-dark);
+   color: var(--base-card);
+}
