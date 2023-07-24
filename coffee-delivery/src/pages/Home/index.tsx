@@ -5,52 +5,55 @@ import { Coffee, Package, ShoppingCart, Timer } from 'phosphor-react';
 export function Home() {
    return (
       <>
-         <main className={styles.container}>
-            <div className={styles.content}>
-               <div className={styles.contentText}>
-                  <h1>Encontre o café perfeito para qualquer hora do dia</h1>
+         <header className={styles.bgHome}>
+            <div className={styles.container}>
+               <div className={styles.content}>
+                  <div className={styles.contentText}>
+                     <h1>Encontre o café perfeito para qualquer hora do dia</h1>
 
-                  <h2>
-                     Com o Coffee Delivery você recebe seu café onde estiver, a
-                     qualquer hora.
-                  </h2>
+                     <h2>
+                        Com o Coffee Delivery você recebe seu café onde estiver,
+                        a qualquer hora.
+                     </h2>
 
-                  <div className={styles.containerIcons}>
-                     <div className={styles.contentIcons}>
-                        <span className={styles.icon}>
-                           <ShoppingCart size={16} weight='fill' />
-                        </span>
-                        <span>Compra simples e segura</span>
+                     <div className={styles.containerIcons}>
+                        <div className={styles.contentIcons}>
+                           <span className={styles.icon}>
+                              <ShoppingCart size={16} weight='fill' />
+                           </span>
+                           <span>Compra simples e segura</span>
 
-                        <span className={styles.icon}>
-                           <Package size={16} weight='fill' />
-                        </span>
-                        <span>Embalagem mantém o café intacto</span>
-                     </div>
+                           <span className={styles.icon}>
+                              <Package size={16} weight='fill' />
+                           </span>
+                           <span>Embalagem mantém o café intacto</span>
+                        </div>
 
-                     <div className={styles.contentIcons}>
-                        <span className={styles.icon}>
-                           <Timer size={16} weight='fill' />
-                        </span>
-                        <span>Entrega rápida e rastreada</span>
-                        <span className={styles.icon}>
-                           <Coffee size={16} weight='fill' />
-                        </span>
-                        <span>O café chega fresquinho até você</span>
+                        <div className={styles.contentIcons}>
+                           <span className={styles.icon}>
+                              <Timer size={16} weight='fill' />
+                           </span>
+                           <span>Entrega rápida e rastreada</span>
+                           <span className={styles.icon}>
+                              <Coffee size={16} weight='fill' />
+                           </span>
+                           <span>O café chega fresquinho até você</span>
+                        </div>
                      </div>
                   </div>
+                  <img src='/src/img/bg-coffee.png' alt='' />
                </div>
-               <img src='/src/img/bg-coffee.png' alt='' />
             </div>
+         </header>
+         <main className={styles.container}>
+            <section className={styles.sectionCoffees}>
+               <h3>Nossos Cafés</h3>
+
+               <div>
+                  <CoffeeCard />
+               </div>
+            </section>
          </main>
-
-         <section>
-            <h3>Nossos Cafés</h3>
-
-            <div>
-               <CoffeeCard />
-            </div>
-         </section>
       </>
    );
 }
